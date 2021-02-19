@@ -1,0 +1,12 @@
+.img-box {
+    column-count: 4;
+    column-gap: 0;
+}
+.image {
+    max-width: 100%;
+    display:block;
+    height: auto;
+}
+.image + .image {
+    margin: 3px;
+}
